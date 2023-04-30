@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apply form</title>
+  </head>
+  <body style="background-color: rgb(92, 128, 0)">
+    <center>
+      <h1><u>Apply Form</u></h1>
+      <h2>Candidate Details</h2>
+    </center>
+    <fieldset style="background-color: purple">
+      <legend><b>Please Fill This..</b></legend>
+      <form>
+        <div align="right">
+          <label>Date:</label>
+          <input type="date" value="2023-04-30" id="mydate" /><br />
+        </div>
+        <label>Candidate Name:</label>
+        <input type="text" placeholder="Enter your name" /><br /><br />
+        <label>father Name:</label>
+        <input type="text" placeholder="Enter your father name" />
+        <br /><br />
+        <label>Mother Name:</label>
+        <input type="text" placeholder="Enter your mother name" /><br /><br />
+        <label>Permanent Address:</label>
+        <textarea
+          name="Permanent addres"
+          placeholder="Permanent address"
+        ></textarea
+        ><br /><br />
+        <label>Email:</label>
+        <input type="email" required placeholder="Enter your email" />
+
+        <br /><br />
+        <label>Mobile no:</label>
+        <input type="tel" id="myphone" placeholder="xx-xxxx-xxxx" required />
+        <br /><br />
+        <label>Religion:</label>
+        <select name="Religion">
+          <option value="Hindu">Hindu</option>
+          <option value="Mushlim">Mushlim</option>
+          <option value="Cristian">Cristian</option>
+          <option value="Other">Other</option>
+        </select>
+        <br /><br />
+        <label>Gender:</label>
+        Male:
+        <input type="radio" name="gender" />
+        Female:
+        <input type="radio" name="gender" />
+
+        <br /><br />
+        <label>D.O.B:</label>
+        <input type="date" /><br /><br />
+        <input type="submit" />
+      </form>
+    </fieldset>
+  </body>
+</html>
